@@ -1,12 +1,15 @@
-.carousel-wrapper img {
+.carousel-wrapper picture {
   display: none;
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.carousel-wrapper picture img {
   width: 100%;
 }
 
-.carousel-wrapper img:first-child {
+.carousel-wrapper picture:first-child {
   display: block;
 }
 /*# sourceMappingURL=styles.css.map */

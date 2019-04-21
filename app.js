@@ -3,7 +3,7 @@ $( document ).ready(function() {
 });
 
 const cycleImages = () => {
-    let images = $('#imageSet img');
+    let images = $('#imageSet picture');
     let now = images.filter(':visible');
     let next = now.next().length ? now.next() : images.first();
     const speed = 2000;

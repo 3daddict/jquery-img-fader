@@ -1,14 +1,16 @@
 .carousel-wrapper {
 
-    img {
+    picture {
         display:none;
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
+        img {
+            width: 100%;
+        }
     }
 
-    img:first-child {
+    picture:first-child {
         display:block;
     }
 
