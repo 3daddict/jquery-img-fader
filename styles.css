@@ -1,0 +1,12 @@
+.carousel-wrapper img {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.carousel-wrapper img:first-child {
+  display: block;
+}
+/*# sourceMappingURL=styles.css.map */
