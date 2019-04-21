@@ -13,5 +13,5 @@ const cycleImages = () => {
 }
 
 $(() => {
-    setInterval(cycleImages, 2000);
+    setInterval(cycleImages, 4000);
 });
